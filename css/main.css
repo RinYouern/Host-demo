@@ -38,7 +38,7 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: purple;
 }
 
 .box-header {
@@ -165,7 +165,7 @@ iframe {
 }
 /* footer */
 footer {
-    background: #000;
+    background: #000000;
     padding: 30px;
     text-align: center;
     color: #fff;
