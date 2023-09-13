@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+    background: whitesmoke;
+}
+
+/* ------------------------------------------------------- */
+header{
+    background: rgb(177, 156, 66);
+}
+.header-logo{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+    font-size: 30px;
+    background: rgb(210, 215, 212);
+    padding-left:40px;
+}
+.logo-one i{ 
+    background: rgb(85, 109, 228);
+    border-radius: 50%;
+    padding: 1px;
+}
+.contact{
+    display:flex;
+    justify-content: end;
+    gap: 60px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.header-content{
+    background-image: url(/img/bag.jpg);
+    background-size: cover;
+    height: 590px;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 7% 4% 0 5%;
+}
+.header-content h1 {
+    font-size: 50px;
+    margin-right: 60%;
+}
+.header-content p{
+    margin-right: 20%;
+    margin-top: 2%;
+}
+.text-button{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    background: white;
+    margin-top: 2%;
+    width: 20%;
+    border-radius: 20px;
+}
+.text-button p{ 
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+    color: black;
+}
+.text-button button{
+    margin: 1px;
+    height: 28px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(55, 182, 237);
+}
+/* --------------------------mian-one------------------------------ */
+.mian-one{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+}
+.mian-one-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+    height: 300px;
+}
+.card-main-one{
+    background: rgb(197, 195, 190);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.card-main-one i{
+    font-size: 50px;
+    color: rgb(86, 84, 84);
+}
+.card-main-one h1{
+    font-size: 20px;
+}
+
+.mian-one-right{
+    display: grid;
+    grid-template-rows:1fr 0.5fr 0.5fr 0.5fr ;
+    padding: 30px;
+    gap: 20px;
+    height: 320px;
+}
+.mian-one-right h1{
+    margin-right: 150px;
+    font-size: 50px;
+    color: rgb(6, 6, 134);
+}
+.mian-one-right button{
+    background: rgb(67, 227, 67);
+    color: white;
+    width: 15%;
+    height: 25px;
+    border: none;
+    border-radius: 20px
+    
+}
+/* ---------------------------main-two------------------------------------------ */
+.mian-two{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin: 170px 0 200px 0;
+    
+}
+.mian-two-first{
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 0.3fr 0.3fr;
+}
+.mian-two-first h1{
+    font-size: 50px;
+    color: rgb(6, 6, 134);
+}
+.mian-two-last{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+    align-items: center;
+    margin-top: 40px;
+}
+.mian-two-last img{ 
+    width: 150px;
+    margin: 0 40px 0 40px;
+}
+/* -----------------------------------------------main-three------------------------------------ */
+.mian-three{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+.main-three-mian{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 200px 0 200px;
+    gap: 30px;
+}
+.main-three-text h1{
+    font-size: 50px;
+    color: rgb(6, 6, 134);
+    
+}
+.mian-three-content{
+    display: grid;
+    text-align: start;
+}
+.mian-three-content i{
+    display: grid;
+    text-align: center;
+    width: 45px;
+    border-radius: 50%;
+    font-size: 40px;
+    background: rgb(130, 209, 11);
+    padding: 5px;
+}
+.mian-three-content h1{
+    font-size: 25px;
+}
+/* ----------------------------mian-four---------------------- */
+.mian-four{
+    margin-top: 150px;
+    display: grid;
+    grid-template-rows: 1fr 0.4fr;
+    justify-content: center;
+    padding: 10Px;
+}
+.main-four-logo{
+    display:grid;
+    grid-template-columns: 70% 30%;
+}
+.four-logo-logo{
+    display: grid;
+    margin-left: 70px;
+    justify-content: start;
+}
+.logologo{
+    background: rgb(3, 3, 89);
+    width: 280px;
+    height: 425px;
+}.logologo img{
+    margin-top: -35px;
+    margin-left: -45px;
+    background: rgb(210, 144, 144);
+}
+.four-logo-text{
+    margin-left: 20%;
+    display: grid;
+    grid-template-rows: 0.3fr 0.01fr 0.01fr;
+}
+.star i{
+    color: rgb(243, 231, 16);
+}
+.main-four-value{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+}
+/* ---------------------------main-five------------------ */
+
+.vedeo{
+    background-image:url(/img/video.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 7% 4% 0 5%;
+}
+.imag-vedeo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.imag-vedeo i{
+    font-size: 70px;
+}
+
+.mian-five{
+    display: grid;
+    grid-template-rows:1fr 0.1fr;
+}
+.five-text{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 0.3fr 0.3fr;
+}
+.five-text{
+    text-align: center;
+    margin-bottom: 5%;
+}
+/* ------------------------footer-------------------------------- */
+footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.footer-fist{
+    display: grid;
+    grid-template-rows: 0.5fr 0.2fr 0.1fr;
+    background: rgb(8, 138, 158);
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+}
+.footer-fist h1{
+    font-size: 40px;
+}
+.footer-fist button{
+    border-radius: 30px;
+    border: none;
+    margin-left: 25%;
+    width: 50%;
+}
+.footer-fist p{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    margin-left: 40%;
+    width: 20%;
+    border-radius: 20px;
+}
+.footer-last{
+    display: grid;
+    grid-template-columns:40% 15% 15% 15% 15% ;
+    padding-top: 5%;
+}
+
+.footer-left{
+    display: grid;
+    grid-template-rows: 0.1fr 0.1fr;
+    text-align: center;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 0.05fr 0.1fr;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.footer-center1{
+    text-align: center;
+    display: grid;
+    grid-template-rows: 0.2fr 0.1fr;
+}
+ul li{
+    margin-top: 10px;
+}
