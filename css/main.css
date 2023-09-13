@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header-web {
+    background: url('https://cdn.pixabay.com/photo/2015/11/26/22/28/girl-1064664_960_720.jpg');
+    background-size: cover;
+    background-position: center -200px;
+    height: 50vh;
+}
+.cover {
+    background: rgba(0,0,0,0.5);
+    height: 50vh;
+}
+nav {
+    
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+ul li {
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 300;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.box-header {
+    color:#fff;
+    font-size: 30px;
+    font-family: cursive;
+    margin-left: 100px;
+}
+
+.box-header button {
+    width: 200px;
+    padding: 15px;
+    border:none;
+    background:rgba(0, 191, 255, 0.9);
+    color:#fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+.box-content {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 20px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.serve {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+.serve-one {
+    background: url('https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083378_960_720.jpg');
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.serve-two {
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/06/32/girl-1848478_960_720.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.serve-three {
+    background: url('https://cdn.pixabay.com/photo/2016/11/08/05/25/steak-1807532_960_720.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 40vh;
+}
+.serve-four {
+    background: url('https://cdn.pixabay.com/photo/2018/02/07/12/01/restaurant-3136935_960_720.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.br5 {
+    border-radius: 5px;
+}
+
+
+
+.box {
+    height: 60vh;
+    margin-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.box-left {
+    background: url('https://cdn.pixabay.com/photo/2016/11/08/06/45/restaurant-1807617_960_720.jpg');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.btn {
+    width: 200px;
+    padding: 16px;
+    background: rgba(5, 197, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    color: #fff;
+}
+.btn-raduis-left {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+.btn-raduis-right {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.show {
+    width: 50%;
+    background: rgba(0,0,0,0.3);
+    color:#fff;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: 60vh;
+}
+/* footer */
+footer {
+    background: #000;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+@media(max-width: 768px) {
+   .serve,
+   .serve-one,
+   .serve-two,
+   .serve-three,
+   .serve-four,
+   .box-left,
+   .box-right {
+       grid-column: 1/3;
+   }
+}
